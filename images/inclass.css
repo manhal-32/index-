@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+
+}
+.header ul{
+    display: flex;
+    gap: 70px;
+    font-size: 20px;
+    list-style: none;
+}
+.header i{
+    display: none;
+}
+
+.header h1{
+    font-size: 28px;
+    color: brown;
+}
+span{
+    color: darkgreen;
+}
+
+@media(max-width: 391px){
+    .header ul{
+        display: none;
+
+    }
+    .header i{
+        display: block;
+    }
+}
